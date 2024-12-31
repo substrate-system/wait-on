@@ -8,20 +8,14 @@ For http(s) resources wait-on will check that the requests are returning 2XX (su
 
 wait-on can also be used in reverse mode which waits for resources to NOT be available. This is useful in waiting for services to shutdown before continuing. (Thanks @skarbovskiy for adding this feature)
 
-[![CI](https://github.com/jeffbski/wait-on/actions/workflows/node.js.yml/badge.svg)](https://github.com/jeffbski/wait-on/actions/workflows/node.js.yml)
+## fork
+This is a fork of [jeffbski/wait-on](https://github.com/jeffbski/wait-on).
+
 
 ## Installation
 
-Latest wait-on version 7+ requires Node.js 12+
-wait-on versions 4-6 requires Node.js 10+
-
-(Node.js v8 users can use wait-on@5.3.0, v4 users can still use wait-on@2.1.2, and older Node.js
-engines, use wait-on@1.5.4)
-
 ```bash
-npm install wait-on # local version
-OR
-npm install -g wait-on # global version
+npm i -S @substrate-system/wait-on  # local version
 ```
 
 ## Usage
