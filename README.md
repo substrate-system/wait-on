@@ -15,7 +15,7 @@ This is a fork of [jeffbski/wait-on](https://github.com/jeffbski/wait-on).
 ## Installation
 
 ```bash
-npm i -S @substrate-system/wait-on  # local version
+npm i -D @substrate-system/wait-on
 ```
 
 ## Usage
